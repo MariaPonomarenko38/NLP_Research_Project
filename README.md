@@ -1,3 +1,8 @@
 # An Unsupervised Learning Approach for Categorising Research Proposals and Recommending Papers
 
 Research writing can be technical and difficult to understand. Manual assignments of research areas and related faculties can be timeconsuming and error-prone. Therefore, the first goal of this project is to build an unsupervised model to classify an unseen project proposal. We explored unsupervised learning methods such as K-means and topic models as well as a combination of Latent Dirichlet Annotation (LDA) and Bidirectional Encoder Representations from Transformers (BERT) and K-means to cluster project proposals into different categories. The second goal is to recommend papers for particular project proposals based on other similar publications. We can assume that the authors of the closest papers can be suitable supervisors for the research project. After investigating different features that can be used as numerical vector representation of documents and apply cosine similarity method to f ind matching pairs of paper and proposal, the features outputted by TF-IDF show the most accurate results.
+
+<iframe title="Presidential Approval Ratings Since Kennedy" aria-label="Interactive line chart" id="datawrapper-chart-t4fiQ" src="https://datawrapper.dwcdn.net/t4fiQ/3/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="578"></iframe>
+
+<script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(e){if(void 0!==e.data["datawrapper-height"]){var t=document.querySelectorAll("iframe");for(var a in e.data["datawrapper-height"])for(var r=0;r<t.length;r++){if(t[r].contentWindow===e.source)t[r].style.height=e.data["datawrapper-height"][a]+"px"}}}))}();
+</script>
